@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto fundo magico</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>Fundo Mágico</h1> <!-- Título principal da página -->
+        <p class="subtitle">Transformando suas ideias com backgrounds mágicos utilizando IA. Descreva o que deseja e
+            veja a mágica acontecer.</p> <!-- Descrição do Site -->
+    </header>
+    <main class="container">
+        <section class="card main-card">
+            <h2 class="card-heard">
+                Descreva o fundo (backgrounds) que deseja criar.
+            </h2>
+
+            <form class="form-group">
+                <textarea rows="5" id="description"
+                    placeholder="Ex: Um gradiente azul suave que vai de azul escuro"></textarea>
+            </form>
+        </section><!-- Onde vai ficar o text Area para digitar o texto junto com o botão para gerar o fundo -->
+
+        <search id="preview-section" class="preview-card"></search>
+
+        <section id="code-output" class="code-grid"><!-- Espaço das Divs com os códigos gerados em HTML e CSS -->
+            <div class="card code-card">
+                <h3 class="code-title">Código HTML</h3>
+                <pre id="html-code" class="code-block"></pre>
+            </div>
+
+            <div class="card code-card">
+                <h3 class="code-title">Código CSS</h3>
+                <pre id="css-code" class="code-block"></pre>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

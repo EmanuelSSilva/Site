@@ -1,0 +1,25 @@
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos Temporários
+*.log
+*.tmp
+*.bak
+
+# Node.js (caso adicione futuramente)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Arquivos de Build (caso adicione futuramente)
+dist/
+build/
