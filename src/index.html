@@ -9,29 +9,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css"></head>
+    <link rel="stylesheet" href="./css/estilos.css"></head>
+    <link rel="stylesheet" href="./css/responsivo.css"></head>
+   
+    
 
-</head>
 
-<body>
-    <header class="header">
+<body>    <header class="header">
         <h1>Fundo Mágico</h1> <!-- Título principal da página -->
         <p class="subtitle">Transformando suas ideias com backgrounds mágicos utilizando IA. Descreva o que deseja e
             veja a mágica acontecer.</p> <!-- Descrição do Site -->
+        
+        
     </header>
-    <main class="container">
-        <section class="card main-card">
-            <h2 class="card-heard">
+    <main class="container">        <section class="card main-card">
+            <h2 class="card-header">
                 Descreva o fundo (backgrounds) que deseja criar.
             </h2>
 
             <form class="form-group">
                 <textarea rows="5" id="description"
                     placeholder="Ex: Um gradiente azul suave que vai de azul escuro"></textarea>
+                <button id="generate-btn" class="btn-magic"><span id="btn-text">Gerar Background Mágico</span></button>
             </form>
         </section><!-- Onde vai ficar o text Area para digitar o texto junto com o botão para gerar o fundo -->
 
-        <search id="preview-section" class="preview-card"></search>
+        <section id="preview-section" class="preview-card"></section>
 
         <section id="code-output" class="code-grid"><!-- Espaço das Divs com os códigos gerados em HTML e CSS -->
             <div class="card code-card">
